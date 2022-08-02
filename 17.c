@@ -8,6 +8,7 @@ int main()
 	{
 	case 1:
 			printf("111");
+			break;//停止(若无break则继续进行case2)
 	case 2:
 		    printf("222");
 	}
