@@ -2,10 +2,10 @@
 #include<stdio.h>
 int main()
 {
-	printf("ÇëÊäÈëÃÜÂë");
+	printf("è¯·è¾“å…¥å¯†ç ");
 	char password[20] = { 0 };
 	scanf("%s", password);
-	printf("ÇëÈ·ÈÏÃÜÂë(Y/N)");
+	printf("è¯·ç¡®è®¤å¯†ç (Y/N)");
 	int qq = 0;
 	while ((qq = getchar()) != '\n')
 	{
@@ -15,10 +15,10 @@ int main()
 	int ch = getchar();
 	if (ch == 'Y')
 	{
-		printf("È·ÈÏ³É¹¦");
+		printf("ç¡®è®¤æˆåŠŸ");
 	}
 	else
-		printf("È·ÈÏÊ§°Ü");
+		printf("ç¡®è®¤å¤±è´¥");
 
 
 	return 0;
