@@ -11,7 +11,7 @@ int main()
 	{
 		;
 	}
-	
+	//此时不应该还剩下一个\n没有处理么?
 	int ch = getchar();
 	if (ch == 'Y')
 	{
