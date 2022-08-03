@@ -3,12 +3,12 @@
 int main()
 {
 	int input = 0;
-	printf("打死我\n");
-	printf("打脸么（0/1）？");
+	printf("鎵撴鎴慭n");
+	printf("鎵撹劯涔堬紙0/1锛夛紵");
 	scanf("%d", &input);
 	if (input == 1)
-		printf("多帅的脸\n");
+		printf("澶氬竻鐨勮劯\n");
 	else
-		printf("屁事多\n");
+		printf("灞佷簨澶歕n");
 	return 0;
 }
