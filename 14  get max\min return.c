@@ -15,7 +15,7 @@ int main()
 	scanf("%d %d", &a, &b);
 	int m = MAX(a, b);
 	
-	printf("最大值还就那个是%d", m);
+	printf("MAX=%d", m);
 
 
 	return 0;
