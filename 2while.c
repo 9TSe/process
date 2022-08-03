@@ -4,12 +4,12 @@ int main()
 	int line = 0;
 	while (line < 30000)
 	{
-		printf("��offer:%d\n", line);
+		printf("ÕÒoffer:%d\n", line);
 		line++;
 	}
 	if (line = 30000)
 	{
-		printf("�յ���һ����ţ�Ƶ�offer");
+		printf("ÊÕµ½ÁËÒ»¸öÔôÅ£±ÆµÄoffer");
 	}
 	return  0;
 }
