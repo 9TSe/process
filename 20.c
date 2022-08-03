@@ -1,5 +1,4 @@
-#define  _CRT_SECURE_NO_WARNINGS
-#include<stdio.h>
+#include<stdio.h>   //没有这个EOF无法被定义
 int main()
 {
 	int ch = 0;
