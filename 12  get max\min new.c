@@ -8,11 +8,11 @@ int main()
 	
 		if (a > b)
 		{
-			printf("最大值为%d\n", a);
+			printf("MAX=陋%d\n", a);
 		}
 		else
 		{
-			printf("最大值为%d\n", b);
+			printf("MAX=%d\n", b);
 		}
 	return 0;
 }
