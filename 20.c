@@ -1,10 +1,25 @@
-#include<stdio.h>   //æ²¡æœ‰è¿™ä¸ªEOFæ— æ³•è¢«å®šä¹‰
+#define _CRT_SECURE_NO_WARNINGS
+#include<stdio.h>
 int main()
 {
-	int ch = 0;
-	while ((ch = getchar())!= EOF)
+	printf("ÇëÊäÈëÃÜÂë");
+	char password[20] = { 0 };
+	scanf("%s", password);
+	printf("ÇëÈ·ÈÏÃÜÂë(Y/N)");
+	int qq = 0;
+	while ((qq = getchar()) != '\n')
 	{
-		putchar(ch);
+		;
 	}
+	
+	int ch = getchar();
+	if (ch == 'Y')
+	{
+		printf("È·ÈÏ³É¹¦");
+	}
+	else
+		printf("È·ÈÏÊ§°Ü");
+
+
 	return 0;
 }
