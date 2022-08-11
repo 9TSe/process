@@ -18,7 +18,9 @@ int main()
 		
 		left ++;
 		right --;
+	        system("cls"); //清空屏幕
 
 	}
+	printf("%s\n", arr2);  //最后一次清空所有,补上最终结果
 	return 0;
 }
