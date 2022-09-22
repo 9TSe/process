@@ -1,5 +1,5 @@
 #include<stdio.h>
-void swap(int* pa, int* pb)
+void swap(int* pa, int* pb)  //如果不用指针,那么a,b由于地址与新引入值不一,会导致打印结果无变化.
 {
     int z = 0;
     z = *pa;
