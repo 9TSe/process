@@ -12,7 +12,7 @@ void convert(int n, char str[40])
 	str[i] = n%2;
 	for (int j = i; j >= 0; j--)
 	{
-		printf("%d", str[j]); //char类型数组但打印出来的本质上是整形数字
+		printf("%d", str[j]); //char绫诲瀷鏁扮粍浣嗘墦鍗板嚭鏉ョ殑鏈川涓婃槸鏁村舰鏁板瓧
 	}
 	printf("\n");
 }
