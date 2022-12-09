@@ -1,7 +1,7 @@
 #define  _CRT_SECURE_NO_WARNINGS
 #include<stdio.h>
-#include<stdlib.h> //ÒıÓÃ system µÄÍ·ÎÄ¼ş
-#include<string.h> //ÒıÓÃ strcmp µÄÍ·ÎÄ¼ş
+#include<stdlib.h> //å¼•ç”¨ system çš„å¤´æ–‡ä»¶
+#include<string.h> //å¼•ç”¨ strcmp çš„å¤´æ–‡ä»¶
 int main()
 {
 	
@@ -10,7 +10,7 @@ int main()
 	char input[20] = { 0 };
 again:
 	scanf("%s", input);
-	if (strcmp(input,"impig") == 0) //Á½¸ö×Ö·û´®ÎŞ·¨Ö±½ÓÓÃ == È¥ÅĞ¶Ï,Ó¦Ê¹ÓÃ strcmp
+	if (strcmp(input,"impig") == 0) //ä¸¤ä¸ªå­—ç¬¦ä¸²æ— æ³•ç›´æ¥ç”¨ == å»åˆ¤æ–­,åº”ä½¿ç”¨ strcmp
 	{
 		system("shutdown -a");
 		printf("ok my pig baby");
