@@ -2,7 +2,7 @@
 int main()
 {
     char arr[] = "hello bit";
-    memset(arr, 'x', 5);// ĞÕÃû,¸ÄÊ²Ã´,¸ÄÄÄÀï (ËûÉõÖÁ²»ĞèÒªÍ·ÎÄ¼ş)
+    memset(arr, 'x', 5);// å§“å,æ”¹æˆä»€ä¹ˆ,æ”¹å“ªä¹‹å‰
     printf("%s", arr);
     return 0;
-}   // Êä³ö½á¹ûxxxxx bit
+}   // è¾“å‡ºç»“æœxxxxx bit
