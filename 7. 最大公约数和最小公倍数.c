@@ -1,5 +1,14 @@
 #define  _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
+int GCD(int a, int b) //求出最大公约数
+{
+    return a % b ? GCD(b, a % b) : b;
+}
+int LCM(int a, int b)  //求出最小公倍数
+{
+    return a * b / GCD(a, b);
+}
+//以上两个函数可以更简便的算出目的数
  int main()
  {
     int a, b, c, m, t;
