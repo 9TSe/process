@@ -1,7 +1,7 @@
 #define  _CRT_SECURE_NO_WARNINGS
 #include<stdio.h>
-#include <stdlib.h> // rand µÄÒıÓÃ
-#include <time.h>   //srand(time)µÄÒıÓÃ
+#include <stdlib.h> // rand çš„å¼•ç”¨
+#include <time.h>   //srand(time)çš„å¼•ç”¨
 void menu()
 {
 	printf("            ###############################\n");
@@ -13,7 +13,7 @@ void menu()
 void game()
 {
 	printf("                      ok let we do\n");
-	int end = rand() % 100 + 1;//Éú³ÉËæ»úÊı
+	int end = rand() % 100 + 1;//ç”Ÿæˆéšæœºæ•°
 	int answer = 0;
 
 	while (1)
@@ -37,7 +37,7 @@ void game()
 	int main()
 	{
 		int input = 0;
-		srand((unsigned int)time(NULL));//Éú³ÉËæ»úÊıÁ¬Í¬ÉÏ,·ÅÔÚ main º¯ÊıÏÂ¿ÉÊ¹Ëæ»úÊıÔÚÒ»¾ÖÓÎÏ·ÖĞ¹Ì¶¨
+		srand((unsigned int)time(NULL));//ç”Ÿæˆéšæœºæ•°è¿åŒä¸Š,æ”¾åœ¨ main å‡½æ•°ä¸‹å¯ä½¿éšæœºæ•°åœ¨ä¸€å±€æ¸¸æˆä¸­å›ºå®š
 		printf("          guess a number which is among 0 to 100\n");
 
 		do
